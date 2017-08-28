@@ -1,4 +1,4 @@
-(function getQuote() {
+function getQuote() {
   const url = 'http://quotes.stormconsultancy.co.uk/random.json'
 
   axios.get(url)
@@ -8,4 +8,9 @@
     quote.textContent = response.data.quote;
   })
   .catch(error => console.log(error));
-})();
+}
+
+getQuote();
+
+const btn = document.getElementById('btn');
+btn.onclick = getQuote;
