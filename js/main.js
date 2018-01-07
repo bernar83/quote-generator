@@ -12,5 +12,5 @@ function getQuote() {
 
 getQuote();
 
-const btn = document.getElementById('btn');
+const btn = document.getElementById('quoteButton');
 btn.onclick = getQuote;
