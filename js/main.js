@@ -4,10 +4,13 @@ function getQuote() {
   axios.get(url)
   .then(function(response) {
     const quote = document.getElementById('quote');
-    const author = document.getElementById('author');
-
     quote.textContent = response.data.quote;
-    author.textContent = response.data.author;
+
+    const author = document.getElementById('author');
+    const authorName = response.data.author;
+    author.textContent = authorName;
+    var nameArr = authorName.split(' ');
+    author.href = `https://www.google.com/search?q=${nameArr[0]}+${nameArr[1]}`;
   })
   .catch(error => console.log(error));
 }
