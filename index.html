@@ -12,32 +12,38 @@
 
   <body>
 
-    <div class="container">
+    <div class="wrapper">
 
-      <header>
+      <div class="container">
 
-        <!-- title -->
-        <h1>Random<br>Quote<br>Generator</h1>
+        <header>
+  
+          <!-- title -->
+          <h1>Random<br>Quote<br>Generator</h1>
+  
+        </header>
+  
+        <section>
+  
+          <div class="excerpt">
+            <p id="quote"></p>
+          </div>
+  
+          <div class="reference">
+            <p>
+              <a id="author"></a>
+            </p>
+          </div>
+  
+          <button id="quoteButton">Press Me</button>
+  
+        </section> 
+      
+      </div>
 
-      </header>
-
-      <section>
-
-        <div class="excerpt">
-          <p id="quote"></p>
-        </div>
-
-        <div class="reference">
-          <p>
-            <a id="author"></a>
-          </p>
-        </div>
-
-        <button id="quoteButton">Press Me</button>
-
-      </section> 
-    
     </div>
+
+    
 
     <!-- scripts -->
     <script type="text/javascript" src="./js/vendor/axios.min.js"></script>
