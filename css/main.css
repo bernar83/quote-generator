@@ -56,9 +56,18 @@ section {
 }
 
 .excerpt {
+  font-size: 24px;
   padding: 60px 300px;
 }
 
 .reference {
   padding-bottom: 40px;
+}
+
+.reference a {
+  color: black;
+}
+
+.reference a:hover {
+  color: blue;
 }
