@@ -5,11 +5,10 @@ quote will appear.
 ## Objectives
 - [X] Invoke the quote API to get quotes using [axios](https://github.com/axios/axios)
 - [X] Add quote to screen
-- [ ] Add CSS to title 
-- [ ] Make title position mobile friendly
-- [ ] Add CSS to quote
-- [ ] Add CSS to button
-- [ ] Make button position mobile friendly
+- [X] Add CSS to title 
+- [X] Make title position mobile friendly
+- [X] Add CSS to quote
+- [X] Add CSS to button
 
 ## Success Criteria
 A success would print a random quote when pressing the randomize button or refreshing the page.
